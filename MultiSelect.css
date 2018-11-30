@@ -1,0 +1,38 @@
+.THIS {
+}
+
+.THIS .ms-filter-input{
+    margin: 0px 5%;
+    width: 50%;
+    height: 30px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    padding: 2px 5px;
+}
+
+.THIS .ms-input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 219, 221);
+    border-radius: .25rem;
+    width: 100%;
+    transition: border .1s linear,background-color .1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 .75rem;
+    line-height: 1.875rem;
+    min-height: calc(1.875rem + (1px * 2));
+}
+
+.THIS .ms-refresh-icon{
+    position: absolute;
+}
+
+.THIS .ms-clear-icon{
+    position: absolute;
+}
+
+.THIS .ms-dropdown{
+    max-height: 500px;
+    overflow-y: auto;
+}
