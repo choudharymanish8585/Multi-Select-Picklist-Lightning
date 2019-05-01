@@ -3,7 +3,7 @@
 A Lightning component to allow multi selection from a drop down with tons unique feature. Please take a note of few things on how you can make the most out of this component:
 
 General syntax to use:
-<code><infraeng:MultiSelect msoptions="{!v.options}" /></code>
+<code><c:MultiSelect msoptions="{!v.options}" /></code>
 
 The one and only required attribute is "<b>msoptions</b>" which accept a list or javascript array of object. Each object must have a two parameters:
 * Id - Id of option. Always try to keep this value unique as it helps in finding out selection uniquely.
